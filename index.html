@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css" media="screen">
+        @import 'assets/styles.css';
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js"></script>
+    <title>lading-page</title>
+</head>
+<body>
+    
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">Countries App</a></li>    
+        </ul>
+    </nav>
+
+        <div class="container-principal">
+            <div class="box">
+                <div class="container-1">
+                    <span class="icon"><i class="fa fa-search"></i></span>
+                    <select onChange="handleChange();" id="search" placeholder="Search..." ></select>
+                </div>
+            </div>
+            <div class="information-card">  
+                <div class="card">
+                    <div class="card-contents">
+                        <div class="box-name">
+                            <h3>Nombre:</h3>
+                            <h3 id="country-name"></h3>
+                        </div>
+
+                        <div class="container-img">
+                            <div class="box-imagen">
+                                <img id="imagen" src="">
+                            </div>
+                        </div>
+                        <div class="card-datos">
+                            <div class="box-name">
+                                <h4>Capital:</h4>
+                                <h4 id="country-capital"></h4>
+                                
+                            </div>
+                            <div class="box-name">
+                                <h4>Región:</h4>
+                                <h4 id="country-region"></h4>
+                            </div>
+
+                            <div class="box-name">
+                                <h4>Moneda:</h4>
+                                <h4 id="country-currencies"></h4>
+                            </div>
+                            <div class="box-name">
+                                <h4>Simbolo:</h4>
+                                <h4 id="country-symbol"></h4>
+                            </div>
+                            <div class="box-name">
+                                <h4>Idioma:</h4>
+                                <ul id="country-languages"></u>
+                            </div>
+                            <div class="box-name">
+                                <h4>Países limítrofes:</h4>
+                                <ul id="country-border"></u>
+                            </div>
+                        </div>    
+                    </div>
+                </div>   
+            </div> 
+        </div> 
+</body>
+<footer>
+    <div>
+        <span> By Javier Ponte © 2021</span>
+    </div>
+    <div>
+    <a href="https://www.linkedin.com/in/javier-ponte-gonz%C3%A1lez-67a6a7147/">
+        <img 
+            src="./assets/images/linkedin.svg" 
+            alt="Linkedin" 
+            width="40px" 
+            height="40px"
+        >
+     </a>   
+    </div>
+    <div>
+        <img 
+            src="./assets/images/github.svg" 
+            alt="Linkedin" 
+            width="40px" 
+            height="40px"
+        >
+    </div>
+</footer>
+</html>
+
+<script src="./assets/js/functions.js"></script>
+
+
+
+
